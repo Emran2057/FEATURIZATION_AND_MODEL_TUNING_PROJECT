@@ -573,8 +573,13 @@ print(f"Accuracy of Hyperparameter tuned Random Forest Regressor is {100*final_m
 
 # *We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.90 so we can say that 90% is the accuracy of our hyperparameter tune Random Forest Regressor model.*
 
-# In[ ]:
 
+from scipy import stats
 
+confidence = 0.95
+squared_errors = (final_predictions - y_test) ** 2
+np.sqrt(stats.t.interval(confidence, len(squared_errors) - 1,
+                         loc=squared_errors.mean(),
+                         scale=stats.sem(squared_errors)))
 
-
+# *We can say that RMSE lies between [4.60862946, 5.92716145] at 95% cofidence level.*
