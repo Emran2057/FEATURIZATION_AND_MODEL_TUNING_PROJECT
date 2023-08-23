@@ -571,7 +571,7 @@ print("R^2 Score:", final_model_r2)
 print(f"Accuracy of Hyperparameter tuned Random Forest Regressor is {100*final_model_r2}.")
 
 
-# *We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.90 so we can say that 90% is the accuracy of our hyperparameter tune Random Forest Regressor model.*
+# *We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.89 so we can say that 89% is the accuracy of our hyperparameter tune Random Forest Regressor model.*
 
 
 from scipy import stats

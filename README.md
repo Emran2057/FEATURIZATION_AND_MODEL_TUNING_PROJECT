@@ -71,7 +71,7 @@ c. Model performance range at 95% confidence level
 
 <h2>Results/ Accuracy obtained in this project:</h2>
 
-We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.89 so we can say that 90% is the accuracy of our hyperparameter tune Random Forest Regressor model compared to other models such as Linear regression, Decision Tree Regressor and SVR.
+We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.89 so we can say that 89% is the accuracy of our hyperparameter tune Random Forest Regressor model compared to other models such as Linear regression, Decision Tree Regressor and SVR.
 
 <h2>Overview of this project:</h2>
 
