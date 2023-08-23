@@ -85,7 +85,7 @@ cement.info()
 
 # In[6]:
 
-
+#  # Univariate Analysis
 cement.describe()
 
 
@@ -164,7 +164,7 @@ fig.show()
 
 # In[16]:
 
-
+#  # Multivariate analysis
 sns.pairplot(cement)
 
 
@@ -176,7 +176,7 @@ sns.pairplot(cement)
 
 # In[17]:
 
-
+#  # Split the data
 from sklearn.model_selection import train_test_split
 
 cement["cement_cat"]=pd.cut(cement['cement'], bins=[100, 150, 200, 250, 300, 350, 400, 450, 500, np.inf], 
