@@ -73,8 +73,8 @@ c. Model performance range at 95% confidence level
 
 We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.89 so we can say that 89% is the accuracy of our hyperparameter tune Random Forest Regressor model compared to other models such as Linear regression, Decision Tree Regressor and SVR.
 
-<h2>Overview of this project:</h2>
+<h2>Note:</h2>
 
 * There is one csv file for data and other two is jupyter nootebook and python file.
 * You can run this code one of this file by downloading or copy it in any plateform which support python.
-* You can not see the boxplot in github because it doesnot support plotly library but you can see it by pasting the link of my GitHub notebook into http://nbviewer.jupyter.org/.*
+* You can not see the boxplot in github because it does not support plotly library but you can see it by pasting the link of my GitHub notebook into http://nbviewer.jupyter.org/.*
