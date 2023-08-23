@@ -75,6 +75,6 @@ We can conclude that RMSE is low for test data so it show that it is generalized
 
 <h2>Overview of this project:</h2>
 
-*There is one csv file for data and other two is jupyter nootebook and python file.
-*You can run this code one of this file by downloading or copy it in any plateform which support python.
-*You can not see the box in github because it doesnot support plotly library but you can see it by pasting the link to your GitHub notebook into http://nbviewer.jupyter.org/.*
+* There is one csv file for data and other two is jupyter nootebook and python file.
+* You can run this code one of this file by downloading or copy it in any plateform which support python.
+* You can not see the box in github because it doesnot support plotly library but you can see it by pasting the link to your GitHub notebook into http://nbviewer.jupyter.org/.*
