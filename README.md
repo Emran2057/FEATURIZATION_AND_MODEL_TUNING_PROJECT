@@ -70,8 +70,14 @@ b. Techniques employed to squeeze that extra performance out of the model withou
 c. Model performance range at 95% confidence level
 
 <h2>Results/ Accuracy obtained in this project:</h2>
-
+<p>
 We can conclude that RMSE is low for test data so it show that it is generalized and R squared is 0.89 so we can say that 89% is the accuracy of our hyperparameter tune Random Forest Regressor model compared to other models such as Linear regression, Decision Tree Regressor and SVR.
+<br>
+You get a fairly large interval from 4.6 to 5.9, and your previous point estimate of 5.3 is roughly in the middle of it.
+<br>
+If you did a lot of hyperparameter tuning, the performance will usually be slightly worse than what you measured using
+cross-validation. That’s because your system ends up fine-tuned to perform well on the validation data and will likely not perform as well on unknown datasets. That’s not the case in this example since the test RMSE is lower than the validation RMSE, but when it happens you must resist the temptation to tweak the hyperparameters to make the numbers look good on the test set; the improvements would be unlikely to generalize to new data.
+</p>
 
 <h2>Note:</h2>
 
